@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: rgb(53, 5, 66);
+  /* background-image: url("."); */
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0px; 
+  
+}
+
+
+.quote{
+  
+  /* border: 2px solid red ; */
+  width:40rem;
+  border-radius: 8px; 
+  /* background-color: rgb(196, 67, 247); */
+  color: azure;
+  font-weight: bold;
+}
+#text{
+  
+  font-size: x-large;
+  font-family: cursive;
+}
+
+#author{
+  font-weight: bold;
+  color: rgb(167, 164, 164); 
+  font-size: large;
+  
+}
+
+.btn{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#foot{
+  margin-top: 25px;
+}
